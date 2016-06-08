@@ -13,7 +13,7 @@ Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30
 ##Usage
 ```
   $ export GOPATH=~/yourgoworkspace
-  $ go get https://github.com/kwesidev/splash
+  $ go get -v github.com/kwesidev/splash
   $ cd $GOPATH/src/github.com/kwesidev/splash
   $ export GOBIN=~/yourgoworkspace/bin
   $ go install .
