@@ -1,4 +1,5 @@
 #Splash
+[![Build Status](https://travis-ci.org/kwesidev/splash.svg?branch=master)](https://travis-ci.org/kwesidev/splash)
 Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30seconds by Default ,but you are free to change it.
 
 ##Tested on
