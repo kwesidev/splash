@@ -7,8 +7,9 @@ Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30
 * Fedora 24
 
 
-##Prerequisite
+##Dependencies
 * Go 1.5.x or Go 1.6.x
+
 
 ##Usage
 ```
