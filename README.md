@@ -7,7 +7,7 @@ Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30
 ##Tested on
 * Ubuntu 14.04
 * Ubuntu 16.04
-* Fedora 24
+* Fedora 23
 
 
 ##Dependencies
