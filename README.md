@@ -5,13 +5,12 @@
 Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30seconds by Default ,but you are free to change it.
 
 ##Tested on
-* Ubuntu 14.04
-* Ubuntu 16.04
-* Fedora 23
+* Ubuntu 14.04 Unity
+* Ubuntu 16.04 Unity
 
 
 ##Dependencies
-* Go 1.5.x or Go 1.6.x
+* Go >=1.5.x
 
 
 ##Usage
