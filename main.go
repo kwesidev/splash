@@ -1,7 +1,6 @@
 package main
 
-//Random Wallpapers
-//William Kwasidev
+//Random Wallpapers for your Desktop
 import (
 	"bufio"
 	"flag"
@@ -15,15 +14,15 @@ import (
 	"time"
 )
 
+//constants
 const (
 	URL      string        = "https://source.unsplash.com/random"
 	FILENAME string        = "/tmp/randompic"
 	DEFAULT  time.Duration = time.Second * 30
 )
 
-var SCREEN = Dimension()
-
-//gets dimension
+//Dimension gets the dimension of the screen
+//this only works on linux systems
 func Dimension() string {
 	command := "xdpyinfo | grep dimension | awk '{ print $2 }'"
 	dim, err := exec.Command("sh", "-c", command).Output()
@@ -35,7 +34,8 @@ func Dimension() string {
 	return strings.Trim(string(dim), "\x0a")
 }
 
-//Downloads Image and saves it to /tmp
+//DownloadImg download images from the internet
+//A url needs to be provided to download the image
 func DownloadImg(url string) {
 	resp, err := http.Get(url)
 	if err != nil {
@@ -63,6 +63,8 @@ func DownloadImg(url string) {
 }
 
 func main() {
+	var SCREEN = Dimension()
+
 	interval := flag.Duration("interval", DEFAULT, "-interval ")
 	flag.Parse()
 	//tick every 30seconds ,return a go channel
