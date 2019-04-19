@@ -21,9 +21,9 @@ const (
 	DEFAULT  time.Duration = time.Second * 30
 )
 
-//Dimension gets the dimension of the screen
+//getScreenDimension returns the dimension of the screen
 //this only works on linux systems
-func Dimension() string {
+func getScreenDimension() string {
 	command := "xdpyinfo | grep dimension | awk '{ print $2 }'"
 	dim, err := exec.Command("sh", "-c", command).Output()
 	if err != nil {
@@ -63,7 +63,7 @@ func DownloadImg(url string) {
 }
 
 func main() {
-	var SCREEN = Dimension()
+	var SCREEN = getScreenDimension()
 
 	interval := flag.Duration("interval", DEFAULT, "-interval ")
 	flag.Parse()
