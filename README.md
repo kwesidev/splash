@@ -1,6 +1,6 @@
 #Splash
 
-[![Build Status](https://travis-ci.org/kwesidev/splash.svg?branch=master)](https://travis-ci.org/kwesidev/splash)
+![example workflow](https://github.com/kwesidev/splash/actions/workflows/go.yml/badge.svg)
 
 Downloads Random Pictures from  https://unsplash.com/  and sets them as your Wallpaper every 30seconds , This works on GNOME .
 
