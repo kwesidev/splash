@@ -1,4 +1,4 @@
-#Splash
+# Splash
 
 ![example workflow](https://github.com/kwesidev/splash/actions/workflows/go.yml/badge.svg)
 
