@@ -4,17 +4,17 @@
 
 Downloads Random Pictures from  https://unsplash.com/  and sets them as your Wallpaper every 30seconds , This works on GNOME .
 
-##Tested on
+## Tested on
 * Ubuntu 18.04
 * Ubuntu 20.04
 * Ubuntu 22.04  
 
 
-##Dependencies
+## Dependencies
 * Go >=1.5.x
 
 
-##Usage
+## Usage
 
 ```
   $ export GOPATH=~/yourgoworkspace
