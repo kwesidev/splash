@@ -2,11 +2,12 @@
 
 [![Build Status](https://travis-ci.org/kwesidev/splash.svg?branch=master)](https://travis-ci.org/kwesidev/splash)
 
-Downloads Random Pictures from  the Web and sets them as your Wallpaper every 30seconds by Default ,but you are free to change it.
+Downloads Random Pictures from  https://unsplash.com/  and sets them as your Wallpaper every 30seconds , This works on GNOME .
 
 ##Tested on
-* Ubuntu 14.04 Unity
-* Ubuntu 16.04 Unity
+* Ubuntu 18.04
+* Ubuntu 20.04
+* Ubuntu 22.04  
 
 
 ##Dependencies
